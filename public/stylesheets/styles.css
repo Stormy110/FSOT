@@ -1,0 +1,51 @@
+html {
+    background-color: slategrey;
+}
+
+.home-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 2em;
+    color: black;
+    background-color: silver;
+    padding: 2em;
+    text-align: center;
+    
+}
+.home-content {
+    padding: 2em;
+    margin: 2em;
+    color:black;
+    background-color:silver;
+    text-align: center;
+    
+}
+.home-content li {
+    list-style-type: none;
+}
+
+.study-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin:2em;
+    color:black;
+    background-color:silver;
+    padding: 2em;
+    text-align: center;
+}
+
+.study-content {
+    padding: 2em;
+    margin: 2em;
+    color:black;
+    background-color:silver;
+    text-align: center;
+    list-style-type: none;
+}
+.study-content li {
+    list-style-type: none;
+}
+
+#button {
+    margin-left: 2em
+}
