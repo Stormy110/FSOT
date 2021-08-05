@@ -5,7 +5,7 @@ const http = require('http');
 
 
 const hostname = '127.0.0.1';
-const port = 8081;
+const port = process.env.port || 8081;
 
 const es6Renderer = require('express-es6-template-engine');
 app.use(express.static('public'))
